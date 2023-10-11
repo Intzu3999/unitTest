@@ -1,7 +1,7 @@
 console.log('Version 20231011_2');
 
 function check_build_script() {
-console.log("this is check_build_script function");
+console.log('this is check_build_script function');
 }
 
 function lint() {
