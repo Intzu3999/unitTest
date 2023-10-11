@@ -1,21 +1,21 @@
 function check_build_script() {
-console.log("this is check_build_script function");
+console.log("this is check_build_script function version2");
 }
 
 function lint() {
-console.log("this is lint function");
+console.log("this is lint function version2");
 }
 
 function compile() {
-console.log("this is compile function");
+console.log("this is compile function version2");
 }
 
 function pack() {
-console.log("this is pack function");
+console.log("this is pack function version2");
 }
 
 function test() {
-console.log("this is test function");
+console.log("this is test function version2");
 }
 
 
