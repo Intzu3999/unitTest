@@ -1,4 +1,4 @@
-var test_class = require("../src/test.js");
+var test = require("../src/test.js");
 
 var myObj = new test();
 var chai = require("chai");

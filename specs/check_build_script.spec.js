@@ -1,4 +1,4 @@
-var check_build_script_class = require("../src/check_build_script.js");
+var check_build_script = require("../src/check_build_script.js");
 
 var myObj = new check_build_script();
 var chai = require("chai");

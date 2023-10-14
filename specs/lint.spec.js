@@ -1,4 +1,4 @@
-var lint_class = require("../src/lint.js");
+var lint = require("../src/lint.js");
 
 var myObj = new lint();
 var chai = require("chai");

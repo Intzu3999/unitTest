@@ -1,4 +1,4 @@
-var package_class = require("../src/my_package.js");
+var my_package = require("../src/my_package.js");
 
 var myObj = new my_package();
 var chai = require("chai");

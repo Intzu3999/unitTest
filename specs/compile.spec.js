@@ -1,4 +1,4 @@
-var compile_class = require("../src/compile.js");
+var compile = require("../src/compile.js");
 
 var myObj = new compile();
 var chai = require("chai");
