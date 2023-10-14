@@ -1,10 +1,10 @@
-var check_build_script_class = require("../src/check_build_script_class.mjs");
+var check_build_script_class = require("../src/check_build_script_class.js");
 
 var myObj = new check_build_script_class();
 var chai = require("chai");
 var expect = chai.expect;
 
-describe ("check_build_script Test Suit | 2023.10.14", function(){
+describe ("check_build_script_class Test Suit | 2023.10.14", function(){
     //test the add function 
     it("001. test case 1", function(){
         expect(myObj.add(1,2)).to.be.equal(3);

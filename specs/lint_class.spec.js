@@ -14,7 +14,7 @@ describe ("lint_class Test Suit", function(){
         expect(myObj.multiply(4,4)).to.be.equal(16);
     })
 
-    it("006. test case 3 with a false result", function(){
+    it("006. test case 3", function(){
         expect(myObj.multiply(20,2)).to.be.equal(40);
     })
 });

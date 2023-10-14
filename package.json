@@ -4,7 +4,7 @@
   "description": "",
   "main": "unitTest.js",
   "scripts": {
-    "test": "mocha './specs/**/*.spec.js'"
+    "EveUnitTest": "mocha './specs/**/*.spec.js'"
   },
   "author": "'EveKeoy' <'intzucareers@gmail.com'>",
   "license": "UNLICENSED",

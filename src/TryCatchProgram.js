@@ -1,6 +1,12 @@
-console.log('Version 20231014_2');
+console.log('Version 20231014_4');
 
-import { check_build_script, check_build_script_class } from './check_build_script_class.mjs';
+import { check_build_script_class } from './check_build_script_class.mjs';
+import { compile_class} from './compile_class.mjs';
+import { lint_class} from './lint_class.mjs';
+import { package_class} from './package_class.mjs';
+import { test_class} from './test_class.mjs';
+import {check_build_script, lint, compile, pack, test} from './all_functions.mjs';
+
 
 
 //const { Builder, By, Key, until} = require('Selenium-webdriver');
@@ -10,8 +16,7 @@ import { check_build_script, check_build_script_class } from './check_build_scri
 //unit test function
 async function EveUnitTest(){
     try {
-        check_build_script(); // Call the function
-        const instance = new check_build_script_class(); // Create an instance of the class
+        check_build_script_class(); // Call the function
 
         try {
             lint_class();
