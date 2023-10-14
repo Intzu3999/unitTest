@@ -1,25 +1,6 @@
-console.log('Version 20231011_2');
+console.log('Version 20231014_2');
 
-function check_build_script() {
-console.log('this is check_build_script function');
-}
-
-function lint() {
-console.log("this is lint function");
-}
-
-function compile() {
-console.log("this is compile function");
-}
-
-function pack() {
-console.log("this is pack function");
-}
-
-function test() {
-console.log("this is test function");
-}
-
+import { check_build_script, check_build_script_class } from './check_build_script_class.mjs';
 
 
 //const { Builder, By, Key, until} = require('Selenium-webdriver');
@@ -29,19 +10,20 @@ console.log("this is test function");
 //unit test function
 async function EveUnitTest(){
     try {
-        check_build_script();
+        check_build_script(); // Call the function
+        const instance = new check_build_script_class(); // Create an instance of the class
 
         try {
-            lint();
+            lint_class();
 
             try {
-                compile();
+                compile_class();
 
                 try {
-                    pack();
+                    package_class();
 
                     try {
-                        test();
+                        test_class();
                     } catch (e) {
                         console.log(e)
                     }
@@ -63,7 +45,7 @@ async function EveUnitTest(){
     } 
     
     finally {
-        console.log('');
+        console.log('try-catch has reach the end');
     }
 }
 
