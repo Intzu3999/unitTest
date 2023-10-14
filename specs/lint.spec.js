@@ -1,10 +1,10 @@
-var lint_class = require("../src/lint_class.js");
+var lint_class = require("../src/lint.js");
 
-var myObj = new lint_class();
+var myObj = new lint();
 var chai = require("chai");
 var expect = chai.expect;
 
-describe ("lint_class Test Suit", function(){
+describe ("lint class Test Suit", function(){
     //test the multiply function 
     it("004. test case 1", function(){
         expect(myObj.multiply(1,2)).to.be.equal(2);

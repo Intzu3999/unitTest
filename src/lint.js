@@ -1,7 +1,7 @@
-class lint_class {
+class lint {
     
     constructor() {
-    console.log("initiate");
+    console.log("initiate lint class");
     }
     //this is method add | for adding vars: num1 and num2
     multiply(num1, num2){
@@ -9,4 +9,4 @@ class lint_class {
         return result;
     }    
 }
-module.exports = lint_class;
+module.exports = lint;

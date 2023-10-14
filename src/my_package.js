@@ -1,11 +1,11 @@
-class test_class {   
+class my_package {  
     constructor() {
-    console.log("initiate");
+    console.log("initiate my_package class");
     }
     //this is method add | for adding vars: num1 and num2
     add(num1, num2){
         var result = num1 + num2;
         return result;
-    }     
+    }   
 }
-module.exports = test_class;
+module.exports = my_package;

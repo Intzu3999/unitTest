@@ -1,6 +1,6 @@
-class package_class {  
+class compile {
     constructor() {
-    console.log("initiate");
+    console.log("initiate compile class");
     }
     //this is method add | for adding vars: num1 and num2
     add(num1, num2){
@@ -8,4 +8,4 @@ class package_class {
         return result;
     }   
 }
-module.exports = package_class;
+module.exports = compile;
