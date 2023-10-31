@@ -3,8 +3,8 @@ class my_package {
     console.log("initiate my_package class");
     }
     //this is method add | for adding vars: num1 and num2
-    add(num1, num2){
-        var result = num1 + num2;
+    divide(num1, num2){
+        var result = num1 / num2;
         return result;
     }   
 }

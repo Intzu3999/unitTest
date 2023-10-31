@@ -6,15 +6,15 @@ var expect = chai.expect;
 
 describe ("test class Test Suit | 2023.10.14", function(){
     //test the add function 
-    it("013. test case 1", function(){
+    it("5.1 test case Add", function(){
         expect(myObj.add(1,2)).to.be.equal(3);
     })
 
-    it("014. test case 2", function(){
+    it("5.2 test case Add", function(){
         expect(myObj.add(4,4)).to.be.equal(8);
     })
 
-    it("015. test case 3", function(){
+    it("5.3 test case Add", function(){
         expect(myObj.add(50,10)).to.be.equal(60);
     })
 

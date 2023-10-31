@@ -5,16 +5,16 @@ var chai = require("chai");
 var expect = chai.expect;
 
 describe ("my_package class Test Suit | 2023.10.14", function(){
-    //test the add function 
-    it("010. test case 1", function(){
-        expect(myObj.add(1,2)).to.be.equal(3);
+    //test the divide function 
+    it("4.1 test case Divide", function(){
+        expect(myObj.divide(10,2)).to.be.equal(5);
     })
 
-    it("011. test case 2", function(){
-        expect(myObj.add(4,4)).to.be.equal(8);
+    it("4.2 test case Divide", function(){
+        expect(myObj.divide(4,4)).to.be.equal(1);
     })
 
-    it("012. test case 3", function(){
-        expect(myObj.add(50,10)).to.be.equal(60);
+    it("4.3 test case Divide", function(){
+        expect(myObj.divide(50,10)).to.be.equal(5);
     })
 });
