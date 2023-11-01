@@ -5,7 +5,7 @@ var chai = require("chai");
 var expect = chai.expect;
 
 describe ("check_build_script class Test Suit | 2023.10.14", function(){
-    //test the add, multiply, divide, square, cube function 
+    //test the add, multiply, divide, square, cube function in check_build_script class
     it("1.1 test case Add", function(){
         expect(myObj.add(5,3)).to.be.equal(8);
     })

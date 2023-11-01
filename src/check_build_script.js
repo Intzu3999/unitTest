@@ -9,7 +9,7 @@ class check_build_script {
     }    
     
     multiply(num3, num4){
-        var result = num3 + num4;
+        var result = num3 * num4;
         return result;
     }     
     
@@ -19,7 +19,7 @@ class check_build_script {
     }  
 
     cube(num6){
-        var result = num6 * num6;
+        var result = (num6 * num6) * (num6 * num6);
         return result;
     }  
         
@@ -28,4 +28,5 @@ class check_build_script {
         return result;
     }     
 }
+
 module.exports = check_build_script;
