@@ -11,18 +11,48 @@ describe ("check_build_script class Test Suit | 2023.10.14", function(){
     })
 
     it("1.2 test case Multiply", function(){
-        expect(myObj.multiply(5,3)).to.be.equal(15);
+        expect(myObj.multiply(5,3)).to.be.equal(10);
     })
 
+
+
+
+
+    
     it("1.3 test case Divide", function(){
         expect(myObj.divide(5,5)).to.be.equal(1);
     })
+
+    it("1.3 test case Divide", function(){
+        expect(myObj.divide(5,7)).to.be.equal(1);
+    })
+
+    it("1.3 test case Divide", function(){
+        expect(myObj.divide(x,7)).to.be.equal(1);
+    })
+
+    it("1.3 test case Divide", function(){
+        expect(myObj.divide(10,2.2)).to.be.equal(1);
+    })
+
+    it("1.3 test case Divide", function(){
+        expect(myObj.divide(-10/-2)).to.be.equal(1);
+    })
+
+    it("1.3 test case Divide", function(){
+        expect(myObj.divide(10/0)).to.be.equal(1);
+    })
+
+
+
+
+
 
     it("1.4 test case Square", function(){
         expect(myObj.square(5)).to.be.equal(25);
     })
 
     it("1.5 test case Cube", function(){
-        expect(myObj.cube(5)).to.be.equal(625);
+        expect(myObj.cube(2)).to.be.equal(16);
     })
 });
